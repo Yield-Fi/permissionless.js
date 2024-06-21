@@ -13,7 +13,7 @@ export const ENTRYPOINT_ADDRESS_V07: ENTRYPOINT_ADDRESS_V07_TYPE =
 export const getEntryPointVersion = (
     entryPoint: EntryPoint
 ): GetEntryPointVersion<EntryPoint> =>
-    entryPoint === ENTRYPOINT_ADDRESS_V06 ? "v0.6" : "v0.7"
+    entryPoint === ENTRYPOINT_ADDRESS_V07 ? "v0.7" : "v0.6"
 
 export function isUserOperationVersion06(
     entryPoint: EntryPoint,
